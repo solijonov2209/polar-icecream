@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header{
+    padding-top: 10px;
+    padding-bottom: 37px;
+    background-color: rgba(242, 206, 218, 0.3);
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+
+.header-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #150101;
+opacity: 0.6;
+}
+
+.header-link:hover{
+    color: #D23166;
+    opacity: 1;
+}
+
+.header-buy{
+    width: 165px;
+    background-color: #D23166;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    text-align: center;
+    color: #FAFAFA;
+    border-radius: 5px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.hero{
+    padding-bottom: 145px;
+    background-color: rgba(242, 206, 218, 0.3);
+}
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content{
+    width: 665px;
+}
+
+.hero-slogn{
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 10%;
+margin-bottom: 6px;
+}
+.hero-title{
+
+font-weight: 800;
+font-size: 40.33px;
+line-height: 110%;
+letter-spacing: 0%;
+margin-bottom: 35px;
+
+}
+
+.hero-spn{
+    color: #D23166;
+}
+
+.hero-text{
+  color: rgba(15, 1, 1,0.6);
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0%;
+margin-bottom: 50px;
+}
+.hero-link{
+       width: 165px;
+    background-color: #D23166;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    text-align: center;
+    color: #FAFAFA;
+    border-radius: 5px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+
+
+
+/* Product style Start  */
+
+.product{
+    padding-top: 97px;
+    padding-bottom: 112px;
+}
+.product-title{
+
+font-weight: 600;
+font-size: 44.2px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 64px;
+}
+
+.product-list{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 49px;
+}
+
+.product-link{
+
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 0.6);
+padding-bottom: 4px;
+border-bottom: 2px solid #ffffff;
+transition:border-bottom 0.5s linear ;
+}
+.product-link:hover{
+    border-bottom: 2px solid #D64374;
+}
+
+.product-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+}
+.product-inner{
+width: 454px;
+}
+.product-subtitle{
+margin-bottom: 11px;
+font-weight: 700;
+font-size: 26px;
+
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.product-info{
+    margin-bottom: 28px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 0.7);
+
+}
+
+.product-price{
+
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+}
+
+.product-oldprice{
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: line-through;
+color: rgba(0, 0, 0, 0.7);
+margin-left: 5px;
+}
+
+.product-buy{
+    margin-top: 16px;
+    width: 165px;
+    background-color: #D23166;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    text-align: center;
+    color: #FAFAFA;
+    border-radius: 5px;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+
+/* fikt style start  */
+
+
+.fikr{
+        padding-top: 112px;
+        padding-bottom: 110px;
+}
+
+.fikr-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fikr-content{
+    width: 350px;
+}
+.fikr-title{
+margin-bottom: 50px;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+display: flex;
+align-items: center;
+gap: 11px;
+}
+
+.fikr-title::before{
+    display: block;
+    content: "";
+    width: 59px;
+    height: 58px;
+    background-image: url("./images/fikr2.jpg");
+    background-size: 58px 58px;
+    border-radius: 50%;
+}
+.fikr-spn{
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+text-transform: uppercase;
+position: relative;
+top: -68px;
+left: 71px;
+}
+
+.fikr-quote{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+margin-bottom: 30px;
+}
+.fikr-quote::before{
+   display: block;
+    content: "";
+    width: 11px;
+    height: 10px;
+    background-image: url("./images/Group.png");
+    background-size: 11px 10px;
+     position: relative;
+     left: -20px;
+}
+.fikr-quote::after{
+   display: block;
+    content: "";
+    width: 11px;
+    height: 10px;
+    background-image: url("./images/Group\ \(1\).png");
+    background-size: 11px 10px;
+     position: relative;
+     left: 320px;
+}
+
+
+.fikr-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fikr-list img{
+    border-radius: 50%;
+}
+
+.fikr-list::before{
+     display: block;
+    content: "";
+    width: 11px;
+    height: 10px;
+    background-image: url("./images/right-arrow\ 2.png");
+    background-size: 11px 10px;
+
+}
+.fikr-list::after{
+     display: block;
+    content: "";
+    width: 11px;
+    height: 10px;
+    background-image: url("./images/right-arrow\ 1.png");
+    background-size: 11px 10px;
+
+}
