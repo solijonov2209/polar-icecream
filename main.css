@@ -81,7 +81,8 @@ letter-spacing: 0%;
 }
 
 .hero-content{
-    width: 665px;
+    max-width: 665px;
+    width: 100%;
 }
 
 .hero-slogn{
@@ -338,4 +339,28 @@ margin-bottom: 30px;
     background-image: url("./images/right-arrow\ 1.png");
     background-size: 11px 10px;
 
+}
+ @media only screen and (max-width: 1024px) and (min-width: 576px){
+    .hero-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+
+
+
+
+@media only screen and (max-width:576px){
+.header-wrapper{
+    flex-direction: column;
+}
+.header-list{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.rasm{
+    display: none;
+}
 }
